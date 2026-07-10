@@ -1,5 +1,6 @@
 *{
     margin:0;
+    font-family: "Inter", sans-serif;
 }
 nav{
     display:flex;
@@ -27,24 +28,23 @@ nav{
     cursor:pointer;
 }
 .header_container{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/banner.jpg");
-    max-width: 100%;
-    height:800px;
-    background-repeat:no-repeat;
-    background-size:cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banner.jpg");
+    max-width: 1551px;
+    height:786px;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .banar_container{
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height:640px;
+    height:650px;
     justify-content: space-around;
     align-items: center;
-    margin-top: 230px;
+    margin-top: 130px;
+    gap: 80px;
 }
 .header_heading{
     display: flex;
@@ -55,11 +55,15 @@ nav{
     color:rgb(170, 170, 170);
 }
 .header_heading h1{
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
 .header_heading p{
     text-align: center;
+    width: 650px;
+    font-size: 21px;
 }
 .banner_button{
     background-color: #1D4ED8;
@@ -69,4 +73,155 @@ nav{
     border:none;
     border-radius:5px;
     padding:17px 50px;
+}
+.main_part{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.card_section{
+    text-align: center;
+    margin: auto;
+    max-width: 87%;
+}
+.card_section h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.card_container{
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+.card{
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 8px;
+    width: 644px;
+    height: 460px;
+}
+.card img{
+    border-radius: 8px 8px 0 0;
+    width: 644px;
+    height: 324px; 
+}
+.card div{
+    text-align: left;
+    padding: 20px ;
+    line-height: 1.7;
+}
+.card div h6{
+    text-transform: uppercase;
+    color:#1d4fd8b4
+}
+.card div p{
+    text-transform: capitalize;
+    color:#5b5b5bb4
+}
+
+.Pricing_section{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+    margin: auto;
+}
+.pricing_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.pricing_header h1{
+    font-size: 48px;
+}
+.pricing_header p{
+    font-size: 16px;
+}
+.pricing_card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.pricing_card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.ul_text{
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.ul_text li::marker{
+    color: #4F7CFF;
+}
+.pricing_card button{
+    padding: 14px 25px;
+    border-radius: 8px;
+}
+.text_color{
+    color:rgb(86, 86, 86);
+}
+.middel_card_color{
+    background-color:#0D1B2A;
+    color: rgb(194, 194, 194);
+}
+.pro_color h6{
+    color:#4F7CFF;
+}
+.pro_color h1{
+    color:white;
+}
+.text_capital{
+    text-transform: uppercase;
+}
+.standerd_card{
+    border: 1px solid rgb(190, 190, 190);
+}
+.standerd_card button{
+    color:#1D4ED8;
+    background-color: white;
+    border:1px solid #1D4ED8;
+    cursor: pointer;
+    font-weight: bold;
+}
+.pro_card{
+    border: none;
+}
+.pro_card button{
+    color:white;
+    background-color: #1D4ED8;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.team_card{
+    background-color: rgb(244, 244, 244);
+}
+.team_card button{
+    border: 1px solid rgb(112, 112, 112);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Callange part eikhane hbe */
+
+
+
+
+
+.footer_main{
+    width: 1551px;
+    height: 400px;
+    background-color: #0D1B2A;
 }
