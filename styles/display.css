@@ -198,6 +198,11 @@ nav{
     cursor: pointer;
     font-weight: bold;
 }
+.standerd_card button:hover{
+    background-color:#1D4ED8;
+    color: white;
+    cursor: pointer;
+}
 .pro_card{
     border: none;
 }
@@ -208,6 +213,9 @@ nav{
     cursor: pointer;
     font-weight: bold;
 }
+.pro_card button:hover{
+    background-color:#396aff;
+}
 .team_card{
     background-color: rgb(244, 244, 244);
 }
@@ -215,6 +223,10 @@ nav{
     border: 1px solid rgb(112, 112, 112);
     font-weight: bold;
     cursor: pointer;
+}
+.team_card button:hover{
+    background-color: #5c5c5c;
+    color:#cbcbcb;
 }
 .venue_section{
     display: flex;
